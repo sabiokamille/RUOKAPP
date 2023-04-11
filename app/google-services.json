@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "746346923864",
+    "project_id": "ruokapp-381219",
+    "storage_bucket": "ruokapp-381219.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746346923864:android:134b0e908e79d8075f472d",
+        "android_client_info": {
+          "package_name": "com.example.ruokapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746346923864-oh6rpjvgjq8qj600tv6jcir256ebpfsd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkrDpApieyJlyd6n176zIceh66lvI0vow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746346923864-oh6rpjvgjq8qj600tv6jcir256ebpfsd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple">
+
+    <ImageView
+        android:layout_width="wrap_content"
+
+        android:layout_height="162dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/my_project_1" />
+    <LinearLayout
+        android:background="@drawable/rounded_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation = "vertical"
+        android:padding = "8dp">
+
+        <TextView
+            android:text = "Thank you for making an appointment with us!"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize = "15sp"
+            android:textStyle="bold"
+            android:layout_gravity = "center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text = "Booking Information"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "bottom"
+                android:src = "@drawable/baseline_event_24"/>
+
+            <TextView
+                android:id = "@+id/txt_booking_time_text"
+                android:text = "10:00 at 06/04/2023"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "bottom"
+                android:src = "@drawable/ic_account_circle_black_24dp"/>
+
+            <TextView
+                android:id = "@+id/txt_booking_therapist_text"
+                android:text = "Therapist #1"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+        <TextView
+            android:id = "@+id/txt_therapyplace_name"
+            android:text = "Busch Campus"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_marginBottom="7dp"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "bottom"
+                android:src = "@drawable/baseline_web_24"/>
+
+            <TextView
+                android:id = "@+id/txt_therapy_website"
+                android:text = "http://health.rutgers.edu/medical-counseling-services/counseling/"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_marginBottom="7dp"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "bottom"
+                android:src = "@drawable/baseline_phone_24"/>
+
+            <TextView
+                android:id = "@+id/txt_therapy_number"
+                android:text = "848-932-7402"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft = "4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_marginBottom="7dp"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "bottom"
+                android:src = "@drawable/baseline_access_time_24"/>
+
+            <TextView
+                android:id = "@+id/txt_therapy_open_hours"
+                android:text = "9:00am - 5:00 pm"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft = "4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_marginBottom="7dp"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "bottom"
+                android:src = "@drawable/baseline_location_on_24"/>
+
+            <TextView
+                android:id = "@+id/txt_therapy_address"
+                android:text = "17 Senior Street, New Brunswick, NJ 08901"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft = "4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id = "@+id/btn_confirm"
+            android:text = "CONFIRM"
+            android:layout_above = "@+id/txt_skip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

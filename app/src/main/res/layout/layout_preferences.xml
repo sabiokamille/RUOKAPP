@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/card_preferences"
+    app:cardCornerRadius="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/txt_preferences_name"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity = "center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Campus" />
+
+        <TextView
+            android:id="@+id/txt_preferences_address"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity = "center_horizontal"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Phone Number" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
